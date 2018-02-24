@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back3"
+    >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="155dp"
+        android:text="Fostering student innovation and entrepreneurship  We do this through: - Tech boot camps, tech talks - On campus and online hackathons called code.fun.do - Leadership talks and focused mentoring for B-School students "
+        android:textAlignment="center"
+        android:textSize="21dp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="52dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="21dp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="248dp"
+        tools:text="Supporting CS faculty in curriculum development and delivery  We do this through: - Delivering guest lectures/ workshops on tech topics - Helping designing and review CS curriculum - Signing up as adjunct faculty - Partnering with faculty in mentoring student projects " />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/p1"
+        tools:layout_editor_absoluteX="248dp"
+        tools:layout_editor_absoluteY="407dp" />
+</android.support.constraint.ConstraintLayout>
