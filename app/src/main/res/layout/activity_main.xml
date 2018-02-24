@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -12,6 +12,9 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginStart="27dp"
         android:text="Explore More"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="447dp" />
@@ -20,6 +23,9 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="259dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="27dp"
         android:text="A program aimed at building a deep long-term association between Microsoft and the academia. Microsoft collaborates with the faculty and students of leading engineering colleges and business schools in India to foster the spirit of innovation and entrepreneurship among students and help faculty in curriculum development and delivery."
         android:textAlignment="center"
         android:textSize="21dp"
@@ -36,7 +42,9 @@
         android:id="@+id/imageView"
         android:layout_width="300dp"
         android:layout_height="100dp"
-        android:layout_marginEnd="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/p1"
         tools:layout_editor_absoluteY="16dp" />
@@ -44,7 +52,10 @@
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="39dp"
         app:srcCompat="@drawable/acad"
         tools:layout_editor_absoluteX="191dp"
         tools:layout_editor_absoluteY="45dp" />
@@ -53,8 +64,11 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginEnd="25dp"
         android:text="Events Nearby"
         tools:layout_editor_absoluteX="221dp"
         tools:layout_editor_absoluteY="447dp" />
 
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>

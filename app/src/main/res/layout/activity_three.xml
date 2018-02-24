@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -10,6 +10,9 @@
         android:id="@+id/imageView4"
         android:layout_width="350dp"
         android:layout_height="160dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imageView5"
+        android:layout_marginTop="13dp"
         app:srcCompat="@drawable/d1"
         tools:layout_editor_absoluteX="17dp"
         tools:layout_editor_absoluteY="0dp" />
@@ -18,6 +21,8 @@
         android:id="@+id/imageView5"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView6"
+        android:layout_centerVertical="true"
         app:srcCompat="@drawable/d2"
         tools:layout_editor_absoluteX="17dp"
         tools:layout_editor_absoluteY="127dp" />
@@ -26,7 +31,10 @@
         android:id="@+id/imageView6"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="169dp"
         app:srcCompat="@drawable/d3"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="298dp" />
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>

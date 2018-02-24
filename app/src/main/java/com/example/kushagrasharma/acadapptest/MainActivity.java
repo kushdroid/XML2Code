@@ -10,7 +10,9 @@ public class MainActivity extends AppCompatActivity {
 Button b1,b2;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         b1=(Button)findViewById(R.id.button);
@@ -21,6 +23,7 @@ Button b1,b2;
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), second_activity.class);
                 startActivity(intent);
+
             }
         });
 
@@ -29,10 +32,11 @@ Button b1,b2;
             public void onClick(View view) {
                 Intent intent1= new Intent(getApplicationContext(), third_activity.class);
                 startActivity(intent1);
+
             }
         });
-    }
 
+    }
 
 }
 
